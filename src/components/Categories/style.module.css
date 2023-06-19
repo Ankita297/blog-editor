@@ -1,0 +1,33 @@
+
+.tabSection {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 16px;
+}
+
+.tab {
+  padding: 8px 16px;
+  background-color: #f2f2f2;
+  color: rgb(67, 67, 67);
+  border: none;
+  font-weight: 700;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.active {
+  border-bottom: 4px solid rgb(254, 88, 41);
+}
+
+@media screen and (max-width: 760px) {
+  .tabSection {
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+
+  .tab {
+    margin-bottom: 8px;
+  }
+}

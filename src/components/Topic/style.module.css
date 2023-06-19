@@ -1,0 +1,71 @@
+.content {
+  margin-top: 16px;
+}
+
+.topic {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.title{
+  color: #262626;
+  font-size: 18px;
+  margin: 0;
+}
+
+.tags{
+  margin-top: 8px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+  margin: 0 8px 8px 0;
+  border: 1px solid;
+  font-weight: 500;
+}
+
+.btns{
+  margin-top: 16px;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.deleteBtn {
+  color: rgb(254, 88, 41);
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.writeBtn{
+  background-color: #fff;
+  color: rgb(254, 88, 41);
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.deleteBtn:hover,
+.writeBtn:hover {
+  background-color: rgb(254, 88, 41, 0.1);
+}
+
+
+.headerWrapper{
+  display: flex;
+  align-items: flex-start;
+}
+.flex_1{
+  display: flex;
+  flex: 1;
+}
